@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A front-facing JavaScript program that generates a random quote intermittently or when the user clicks the 'Show Another Quote' button. Design and style supplied by Treehouse Island, Inc.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://localseth.github.io/unit-4-random-quote-generator/",
+            "github_link": "https://github.com/localseth/unit-4-random-quote-generator",
+            "image_urls": []
+        },
+        {
+            "id": 1,
+            "project_name": "Responsive Signup Form",
+            "description": "A sample single page newsletter signup form designed to adapt to mobile and desktop displays.",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://localseth.github.io/unit-3-registration-form/",
+            "github_link": "https://github.com/localseth/unit-3-registration-form",
+            "image_urls": []
+        },
+        {
+            "id": 2,
+            "project_name": "project",
+            "description": "d",
+            "technologies": [],
+            "live_link": "URL",
+            "github_link": "URL",
+            "image_urls": []
+        },
+        {
+            "id": 3,
+            "project_name": "project",
+            "description": "d",
+            "technologies": [],
+            "live_link": "URL",
+            "github_link": "URL",
+            "image_urls": []
+        },
+        {
+            "id": 4,
+            "project_name": "project",
+            "description": "d",
+            "technologies": [],
+            "live_link": "URL",
+            "github_link": "URL",
+            "image_urls": []
+        }
+    ]
+}
