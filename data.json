@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://localseth.github.io/unit-4-random-quote-generator/",
             "github_link": "https://github.com/localseth/unit-4-random-quote-generator",
-            "image_urls": []
+            "image_urls": ["/static/images/quote_generator-sq_web.png", "/static/images/quote_generator-landscape_web-1.png"]
         },
         {
             "id": 1,
@@ -16,34 +16,34 @@
             "technologies": ["HTML", "CSS"],
             "live_link": "https://localseth.github.io/unit-3-registration-form/",
             "github_link": "https://github.com/localseth/unit-3-registration-form",
-            "image_urls": []
+            "image_urls": ["/static/images/responsive_form-sq_web.png", "/static/images/responsive_form-landscape_web-1.png", "/static/images/responsive_form-landscape_web-2.png"]
         },
         {
             "id": 2,
-            "project_name": "project",
-            "description": "d",
-            "technologies": [],
-            "live_link": "URL",
-            "github_link": "URL",
-            "image_urls": []
+            "project_name": "Filter and Paginate Data",
+            "description": "Directory of students that can be filtered by search. Results are limited to 9 per page, and the number of pages is automatically generated.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://localseth.github.io/th-unit-6-project/",
+            "github_link": "https://github.com/localseth/th-unit-6-project",
+            "image_urls": ["/static/images/filter_paginate-sq_web.png", "/static/images/filter_paginate-landscape_web-1.png"]
         },
         {
             "id": 3,
-            "project_name": "project",
-            "description": "d",
-            "technologies": [],
-            "live_link": "URL",
-            "github_link": "URL",
-            "image_urls": []
+            "project_name": "Responsive Layout Portfolio Site",
+            "description": "A sample portfolio page optimized for mobile and desktop displays. Using media queries, the page automatically changes layout based on the size of the viewport.",
+            "technologies": ["CSS"],
+            "live_link": "https://localseth.github.io/responsive-layout-site/",
+            "github_link": "https://github.com/localseth/responsive-layout-site",
+            "image_urls": ["/static/images/portfolio-sq_web.png", "/static/images/portfolio-landscape_web-1.png"]
         },
         {
             "id": 4,
-            "project_name": "project",
-            "description": "d",
-            "technologies": [],
-            "live_link": "URL",
-            "github_link": "URL",
-            "image_urls": []
+            "project_name": "Connect to a Public API",
+            "description": "A directory of sample employees generated from a public API. Information includes name, email address, mailing address, and more. The site adds filtering functionality and an overlay with more details when you click on an employee.",
+            "technologies": ["JavaScript", "AJAX", "HTML", "CSS"],
+            "live_link": "https://localseth.github.io/public-api/",
+            "github_link": "https://github.com/localseth/public-api",
+            "image_urls": ["/static/images/public_api-sq_web.png", "/static/images/public_api-landscape_web-1.png"]
         }
     ]
 }
