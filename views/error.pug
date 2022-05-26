@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= `There's been a problem`
+  h2= `Error status code: ${err.status} - ${err.title}`
+  p.error-p= `${err.message}`
+
+  a.home(href=`/`) Back to home page
+
+  div.not-found-stack
+    hr
+    p The message below is for development purposes only
+    pre #{err.stack}
