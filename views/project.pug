@@ -28,8 +28,9 @@ block content
             li=`${item}`
 
         //- Add the href values to the links below
-        a.btn-link(href=`${live_link}`) Live Demo
-        a.btn-link(href=`${github_link}`) GitHub Repo
+        a.btn-link(href=`${live_link}`, target="_blank") Live Demo
+        if (`${github_link}` !== '')
+          a.btn-link(href=`${github_link}`, target="_blank") GitHub Repo
 
     .project-img-box.box
       each img, index in image_urls

@@ -2,9 +2,8 @@ extends layout
 
 block content
   article.portfolio-intro
-    h1= `There's been a problem`
-    h2= `Error status code: ${err.status} - ${err.title}`
-    p.error-p= `${err.message}`
+    h1= `404 - Page Not Found`
+    p= `${err.message}`
 
     a.home(href=`/`) Back to home page
 

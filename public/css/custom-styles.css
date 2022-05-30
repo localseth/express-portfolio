@@ -1,0 +1,83 @@
+/*
+  Error page styles
+*/
+.error-stack {
+    max-width: 100%;
+    width: 65vw;
+    overflow: auto;
+  }
+  
+.error-stack pre {
+    white-space: pre;
+}
+
+/*
+  About page styles
+*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+li {
+    padding: 0.5rem;
+    background-color: #BFD0E3;
+    color: white;
+    margin: 0.25rem 0.25rem 0.25rem 0rem;
+    border-radius: 3px;
+}
+
+/*
+  Universal psuedo classes
+*/
+a:hover {
+    opacity: 70%;
+    transition-duration: 200ms;
+}
+
+
+/*
+  Light-mode styles
+*/
+body {
+    background-color: #DBE8E5;
+}
+
+.wrapper,
+.wrapper > * {
+    background-color: #F5F5F5;
+}
+.sidebar {
+    background-color: #DBE8E5;
+    color: #CFCFCF;
+}
+
+.sidebar h5,
+.header-info-box {
+    color: #555;
+    text-transform:uppercase;
+}
+
+.header {
+    border-left: none;
+}
+
+.header button {
+    background-color: #555;
+}
+
+.projects-box,
+.portfolio-projects,
+.box,
+.portfolio-projects > *,
+.inner-wrapoper > * {
+    background-color: inherit;
+    ;
+}
+
+.btn-link {
+    background-color: #555; 
+}
