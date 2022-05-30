@@ -1,0 +1,42 @@
+/*
+  Light-mode styles
+*/
+body {
+    background-color: #DBE8E5;
+}
+
+.wrapper,
+.wrapper > * {
+    background-color: #F5F5F5;
+}
+.sidebar {
+    background-color: #DBE8E5;
+    color: #CFCFCF;
+}
+
+.sidebar h5,
+.header-info-box {
+    color: #555;
+    text-transform:uppercase;
+}
+
+.header {
+    border-left: none;
+}
+
+.header button {
+    background-color: #555;
+}
+
+.projects-box,
+.portfolio-projects,
+.box,
+.portfolio-projects > *,
+.inner-wrapoper > * {
+    background-color: inherit;
+    ;
+}
+
+.btn-link {
+    background-color: #555; 
+}

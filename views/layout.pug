@@ -9,6 +9,7 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
     link(rel='stylesheet', href='/static/css/custom-styles.css')
+    //- link(rel='stylesheet', id='theme', href='') NOTE: This is for the theme switcher. I will hopefuly develop this portion later.
 
   body
     #my-info.sidebar
@@ -16,6 +17,7 @@ html(lang="en" dir="ltr")
         br
         .thumbnail-box
           img.thumbnail(src='https://placehold.it/550x350', alt='')
+          //- input(id="dark-theme" type="checkbox") NOTE: This is for the theme switcher. I will hopefuly develop this portion later.
         .dev-intro-box
 
           //- Replace with your name
@@ -40,3 +42,4 @@ html(lang="en" dir="ltr")
       block content
 
   script(src='/static/js/script.js')
+  //- script(src='/static/js/themeSwitcher.js') NOTE: This is for the theme switcher. I will hopefuly develop this portion later.
