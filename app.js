@@ -28,7 +28,7 @@ app.get('/error', (req, res, next) => {
     err.title = 'Server Error'
     throw err;
 });
-/* 404 handler to catch undefined or non-existent route requests */ 
+// 404 handler to catch undefined or non-existent route requests 
 app.use((req, res, next) => {
     console.log('404 error handler called');
     const err = new Error();
@@ -38,7 +38,7 @@ app.use((req, res, next) => {
     throw err;
 });
   
-  /* Global error handler */
+// Global error handler
 app.use((err, req, res, next) => {
   
     if (err) {
@@ -52,6 +52,7 @@ app.use((err, req, res, next) => {
     }
 });
 
+// Set port to view app
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000');
 })
