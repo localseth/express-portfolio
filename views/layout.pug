@@ -6,6 +6,10 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Share:ital,wght@1,700&display=swap' rel='stylesheet')
+
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
     link(rel='stylesheet', href='/static/css/custom-styles.css')
@@ -16,7 +20,10 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          .logo
+            h1 LOCAL
+            h1 SETH
+          //- img.thumbnail(src='https://placehold.it/550x350', alt='')
           //- input(id="dark-theme" type="checkbox") NOTE: This is for the theme switcher. I will hopefuly develop this portion later.
         .dev-intro-box
 
