@@ -36,6 +36,13 @@ li {
     flex-flow: column nowrap;
 }
 
+.about-intro-box img {
+    align-self: flex-start;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+}
+
 .about-intro-box > * {
     margin-bottom: 0.25rem;
     margin-top: 0.25rem;
@@ -70,6 +77,8 @@ li {
     display: inline-block;
     width: auto;
     font-family: 'Share', cursive;
+    font-weight: 700;
+    font-style: italic;
     font-size: 3rem;
     color: #DBE8E5;
     font-weight: bold;
