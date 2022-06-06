@@ -5,6 +5,11 @@ const path = require('path');
 
 const app = express();
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+};
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
@@ -53,6 +58,6 @@ app.use((err, req, res, next) => {
 });
 
 // Set port to view app
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000');
+app.listen(port, () => {
+    console.log(`The application is running on localhost:${port}`);
 })
