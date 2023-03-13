@@ -20,9 +20,9 @@ router.get('/projects')
 router.get('/projects/:id', (req, res, next) => {
     console.log(`Project ${req.params.id} has been called`);
     // render project if the id paramater is not 'undefined'
-    if (projects[req.params.id]) {
+    if (projects[req.params.id - 1]) {
         const { id } = req.params;
-        res.render('project', projects[id]);
+        res.render('project', projects[id - 1]);
     } else {
         // throw an error if id paramater is 'undefined'
         const err = new Error();
